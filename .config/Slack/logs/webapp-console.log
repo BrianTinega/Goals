@@ -1,0 +1,134 @@
+[03/11/20, 17:17:11:732] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.3.0-28-generic on x64 at 03/11/20, 17:17:11:732      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[03/11/20, 17:17:11:733] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[03/11/20, 17:17:11:733] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[03/11/20, 17:17:14:790] info: Initializing local storage instance at path: /home/tinega/.config/Slack/local-settings.json 
+[03/11/20, 17:17:14:871] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/11/20, 17:17:14:872] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/11/20, 17:17:14:923] info: Read UUID from file successful {
+  "uuid": "9cd3045e-25b3-5b8a-8ded-91a8beb7b36b"
+} 
+[03/11/20, 17:17:15:103] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/11/20, 17:17:15:103] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/11/20, 17:17:15:232] info: Main window preload script finished {
+  "readyTime": 117.343537
+} 
+[03/11/20, 17:17:15:357] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/11/20, 17:17:15:358] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/11/20, 17:17:15:358] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/11/20, 17:17:15:557] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/11/20, 17:17:15:598] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/11/20, 17:17:15:599] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/11/20, 17:17:15:750] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[03/11/20, 17:17:16:226] info: Network status check {
+  "elapsed_time_ms": 662,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/11/20, 17:17:16:229] info: Store: SET_NETWORK_STATUS online 
+[03/11/20, 17:17:17:253] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[03/11/20, 17:17:17:262] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[03/11/20, 17:17:17:338] warn: error getActiveModelOb found no ob 
+[03/11/20, 17:17:17:339] warn: TS.boot_data.channel_id: undefined 
+[03/11/20, 17:17:17:339] warn: TS.boot_data.im_id: undefined 
+[03/11/20, 17:17:17:340] warn: TS.boot_data.group_id: undefined 
+[03/11/20, 17:17:17:340] warn: error getActiveModelOb found no ob 
+[03/11/20, 17:17:17:341] warn: TS.boot_data.channel_id: undefined 
+[03/11/20, 17:17:17:341] warn: TS.boot_data.im_id: undefined 
+[03/11/20, 17:17:17:341] warn: TS.boot_data.group_id: undefined 
+[03/11/20, 17:17:17:378] info: [BOOT] booted! pri:0 version:1583887916 start_ms:1583936235467 (1910ms ago) 
+[03/11/20, 17:17:17:424] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[03/11/20, 17:17:17:492] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[03/11/20, 17:17:17:492] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["version"] 
+[03/11/20, 17:17:17:552] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/11/20, 17:17:17:552] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[03/11/20, 17:17:17:553] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/11/20, 17:17:17:554] info: Store: MAIN_WINDOW_SHOWN  
+[03/11/20, 17:17:17:554] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 482,
+      "y": 170
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/11/20, 17:17:17:555] info: Store: CLEAR_NOTIFICATIONS  
+[03/11/20, 17:17:17:556] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [version] 
+[03/11/20, 17:17:18:582] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 482,
+      "y": 200
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/11/20, 17:17:18:729] info: [INFO] running without a user 
+[03/11/20, 17:17:23:007] info: Got window.open with URL: /ssb/signin 
+[03/11/20, 17:17:23:036] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/11/20, 17:17:23:036] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[03/11/20, 17:17:23:040] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[03/11/20, 17:17:23:046] info: [API-Q] (T00000000) 93bf0d10-1583936243.040 team.info called with reason: UnknownFetchManager 
+[03/11/20, 17:17:23:047] info: [API-Q] (T00000000) 93bf0d10-1583936243.040 team.info is ENQUEUED 
+[03/11/20, 17:17:23:048] info: [API-Q] (T00000000) 93bf0d10-1583936243.040 team.info is ACTIVE 
+[03/11/20, 17:17:23:364] info: [API-Q] (T00000000) 93bf0d10-1583936243.040 team.info is REJECTED: API not ok not_authed 
+[03/11/20, 17:17:23:369] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[03/11/20, 17:17:23:369] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[03/11/20, 17:17:27:206] info: Got window.open with URL: /ssb/signin 
+[03/11/20, 17:17:27:693] info: [FOCUS-EVENT] Window blurred 
+[03/11/20, 17:17:43:042] info: [FOCUS-EVENT] Window focused 
+[03/11/20, 17:17:47:782] info: Store: QUIT_APP  
+[03/11/20, 17:17:47:782] info: [FOCUS-EVENT] Window blurred 
+[03/11/20, 17:17:48:296] info: Store: APP_CLEANED_UP  
+[03/11/20, 17:17:48:297] info: Store: DOWNLOADS_CLEANED_UP  
+[03/11/20, 17:17:48:356] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 

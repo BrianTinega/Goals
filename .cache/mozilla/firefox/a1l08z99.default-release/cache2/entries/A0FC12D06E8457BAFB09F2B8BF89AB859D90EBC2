@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>eCitizen - Gateway to All Government Services</title>
+		<meta content="Official Digital payments platform that enables Kenyan citizens , residents and visitors access and pay for government services online." name="description" />
+	    <meta content="eCitizen" name="author" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+
+
+		<!-- bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/doc.min.css" rel="stylesheet">
+		<!-- custom -->
+		<link href="css/styles.css" rel="stylesheet">
+		<!-- flexislider -->
+	    <link rel="stylesheet" href="css/nguvu.css" type="text/css" media="screen" />
+
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	<nav class="navbar navbar-default navbar-fixed-top ecitizen" id="subnav">
+<div class="container header-nav">
+    <a href="https://account.ecitizen.go.ke/register" class="btn btn-default btn-ecitizen navbar-btn navbar-right" type="button">Create an account</a>
+    <a href="#" class="ecitizen-logo"><img src="assets/img/ecitizen-logo.png"/></a>
+    <a href="https://account.ecitizen.go.ke/login" class="pull-right link-button ecitizen">Sign in</a>
+</div>
+      <div class="container bg-ecitizen portal-trio">
+      <div class="row">
+				<a class="col-sm-4 col-xs-4 ecitizen" title="eCitizen" href="http://ecitizen.go.ke">ECITIZEN</a>
+				 <a class="col-sm-4 col-xs-4 evisa" href="http://evisa.go.ke">EVISA</a>
+				 <a class="col-sm-4 col-xs-4 ebusiness" title="eBusiness" href="http://ebusiness.go.ke">EBUSINESS</a>
+        </div><!--/.nav-collapse -->
+     </div>
+</div>
+      <div class="container bg">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand hidden-lg hidden-md hidden-sm">MENU</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav container">
+            <li class="active"><a href="_index.html">Overview</a></li>
+             <li><a href="ecitizen-services.html">Services</a></li>
+             <li><a href="ecitizen-helplines.html">Contact us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+<!--main-->
+<div class="container" id="main">
+<div class="row">
+<div class="ecitizen-about">
+        <div class="ecitizen-hero ecitizen-hero-carousel ecitizen-js-carousel">
+          <div class="nguvu-scroll-carousel">
+            <ul class="nguvu-scroll-carousel-content">
+              <li class="nguvu-scroll-carousel-item ecitizen-about-carousel-item-1">
+                <div class="maia-aux">
+                  <div class="maia-cols">
+                    <div class="maia-col-5">
+                      <div class="ecitizen-vertical-center">
+                        <div class="ecitizen-content">
+                          <h1>
+                          Apply for Government services ChapChap!</h1>
+                          <h6>Now available across all devices!</h6>
+                          <a class="btn btn-ecitizen btn-lg" data-g-label="Create an account button" href="https://account.ecitizen.go.ke/register">Create an account</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+             <!-- <li class="nguvu-scroll-carousel-item ecitizen-about-carousel-item-2">
+                <div class="maia-aux">
+                  <div class="maia-cols">
+                    <div class="maia-col-5">
+                      <div class="ecitizen-vertical-center">
+                        <div class="ecitizen-content">
+                          <h1>Receive email and sms notification every time your application has progressed.</h1>
+                          <a class="btn btn-primary btn-lg" data-g-label="Learn more" href="">Create an account</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nguvu-scroll-carousel-item ecitizen-about-carousel-item-3">
+                <div class="maia-aux">
+                  <div class="maia-cols">
+                    <div class="maia-col-5">
+                      <div class="ecitizen-vertical-center">
+                        <div class="ecitizen-content">
+                          <h1>Need help? Have a question about eCitizen? Visit the help center for FAQs and suggestions.
+                          </h1>
+                          <a class="btn btn-primary btn-lg" data-g-label="Learn more" href="">Learn more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>-->
+            </ul>
+          </div>
+          <div class="ecitizen-carousel-selector nguvu-selector" data-autoplay-interval="7000"
+          data-enable-autoplay="true" data-enable-wrap="true">
+            <div class="nguvu-selector-content">
+              <a class="nguvu-selector-control-item nguvu-selector-control-item-selected"></a>
+              <!--<a class="nguvu-selector-control-item"></a>
+              <a class="nguvu-selector-control-item"></a>-->
+            </div>
+          </div>
+        </div>
+  </div>
+
+
+
+</div>
+
+
+<div class="row">
+<div class="st-content-noborder">
+
+<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb20 p20 text-center" style="background:#f7f9f9;">
+<h3 class="mt0 pt20 pb0">Welcome to <strong>eCitizen</strong></h3>
+<p class="lead pl20 pr20 pt0">
+Kenyan Citizens and Foreign Residents can now apply for Government to Citizen (G2C) services  and pay via mobile money, debit Cards and eCitizen agents.  </p>
+</div>
+
+
+<!--About-us top-content-->
+<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb20 text-center">
+<h3 class="mb0">WHY <strong>ECITIZEN?</strong></h3>
+<h6 class="mt0">Get Government Services <em>ChapChap!</em></h6>
+</div>
+
+<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 mb20">
+
+<div class="media pl20">
+      <div class="media-left pr20">
+         <img class="noborder" src="assets/icons/padlock.png"/>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Single Sign-on</h4>
+One account is all you need, a single username and password gets you into everything government.
+      </div>
+    </div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 mb20">
+
+<div class="media pl20">
+      <div class="media-left pr20">
+         <img class="noborder" src="assets/icons/check.png"/>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Convenience</h4>
+<p>Pay using mobile money, Debit Cards and online banking from local banks.</p>
+      </div>
+    </div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 mb20">
+
+<div class="media pl20">
+      <div class="media-left pr20">
+         <img class="noborder" src="assets/icons/notification.png"/>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Notifications</h4>
+<p>Receive email and sms notification every time your application has progressed.</p>
+      </div>
+    </div>
+</div>
+<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 mb20">
+
+<div class="media pl20">
+      <div class="media-left pr20">
+         <img class="noborder" src="assets/icons/download.png"/>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Online Services</h4>
+<p>Fill online application forms, submit then receive your permit in PDF format from wherever you are.</p>
+      </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+
+
+
+<section data-stellar-background-ratio="0.5" style="background-image: url(&quot;images/elephand.png&quot;); font-size: 20px; background-position: 50% 68.8px;" class="sc-parallax"><div class="row"><div class="containerCentered">
+			<h3>Get your account NOW</h3>
+			</div>
+			<div class="sc-mask"></div>
+			<div class="container">
+			<div class="aq-block aq-block-pg_heading_block col-md-12 col-xs-12 clearfix" id="aq-block-12-5">            <div class="containerCentered">
+            <p class="lead">A single account for all Government to citizen services    </p></div>
+	        </div>
+
+	<div class="aq-block aq-block-pg_button_block col-md-12 col-xs-12 clearfix" id="aq-block-12-6">
+	<a target="" href="https://account.ecitizen.go.ke/register-step-1?t=citizen">
+	<button class="btn btn-lg hollow">Create an account</button>
+	</a>
+	</div>
+	</div>
+
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+
+</div>
+
+
+</div><!--/main-->
+
+<div id="cicerone" class="container">
+    <div class="misc">
+        <div class="row">
+            <div class="col-sm-9 legal"><p class="small">&copy 2015 - Republic of Kenya - All Rights Reserved / <a title="Terms of Use" href="/terms-of-use.html">Terms of Use</a></p></div>
+            <div class="col-sm-3 social">
+                <div class="row">
+                    <a title="facebook" target="_blank" class="col-sm-3 fb" href="http://www.facebook.com/ecitizen"><img title="facebook" src="assets/icons/fb.png"></a>
+                    <a title="twitter"  target="_blank" class="col-sm-3 tw" href="http://twitter.com/ecitizen"><img title="twitter" src="assets/icons/tw.png"></a>
+                    <a title="linkedin" target="_blank" class="col-sm-3 in" href="http://www.linkedin.com/company/ecitizen"><img title="linkedin" src="assets/icons/in.png"></a>
+                    <a title="youtube" target="_blank"  class="col-sm-3 yt" href="https://www.youtube.com/user/ecitizentv"><img title="youtube" src="assets/icons/yt.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+	<!-- script references -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+
+
+		<!-- FlexSlider -->
+        <script defer src="js/jquery.nguvu.js"></script>
+
+
+        <!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 7766711;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<!-- End of LiveChat code -->
+	</body>
+</html>
+‹%∂Ñô≤      ^ió‚^ióÛAqﬂ^r“        :https://www.ecitizen.go.ke/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.10.0
+Date: Thu, 12 Mar 2020 01:59:29 GMT
+Content-Type: text/html
+Content-Length: 11044
+Last-Modified: Thu, 03 Oct 2019 14:48:16 GMT
+ETag: "5d960a30-2b24"
+Accept-Ranges: bytes
+ original-response-headers Server: nginx/1.10.0
+Date: Thu, 12 Mar 2020 01:59:29 GMT
+Content-Type: text/html
+Content-Length: 11044
+Last-Modified: Thu, 03 Oct 2019 14:48:16 GMT
+ETag: "5d960a30-2b24"
+Accept-Ranges: bytes
+ ctid 1 eTLD1Access 1;0;1517748388, uncompressed-len 0 net-response-time-onstart 1019 net-response-time-onstop 1022 predictor::resource-count 24 predictor::https://www.ecitizen.go.ke/css/bootstrap.min.css 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/css/doc.min.css 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/css/styles.css 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/css/nguvu.css 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/img/ecitizen-logo.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/padlock.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/check.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/notification.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/download.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/fb.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/tw.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/in.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/assets/icons/yt.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/js/jquery.min.js 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/js/bootstrap.min.js 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/js/scripts.js 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/js/jquery.nguvu.js 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/images/ecitizen-carousel-1.png 1,1,1583978466,4096 predictor::https://www.ecitizen.go.ke/images/elephand.png 1,1,1583978466,4097 predictor::https://www.ecitizen.go.ke/fonts/museo_slab_500.woff 1,1,1583978466,4096 predictor::https://www.ecitizen.go.ke/fonts/kalam-bold-webfont.woff2 1,1,1583978466,4096 predictor::https://cdn.livechatinc.com/tracking.js 1,1,1583978466,4096 predictor::https://www.evisa.go.ke/assets/img/cleardot.gif 1,1,1583978466,4096 predictor::https://secure.livechatinc.com/licence/7766711/v2/get_dynamic_config.js?t=1583978472780&referrer=https%3A%2F%2Fwww.google.com%2F&url=https%3A%2F%2Fwww.ecitizen.go.ke%2F&params=&channel_type=code&jsonp=__lc_data_119996 1,1,1583978466,4096   +$

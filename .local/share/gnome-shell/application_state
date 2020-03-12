@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="slack_slack.desktop" open-window-count="0" score="4" last-seen="1583936267"/>
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="24" last-seen="1583824769"/>
+    <application id="yelp.desktop" open-window-count="0" score="0" last-seen="1583917164"/>
+    <application id="firefox.desktop" open-window-count="5" score="9379" last-seen="1584000669"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="74" last-seen="1583977168"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="180" last-seen="1583999472"/>
+    <application id="update-manager.desktop" open-window-count="0" score="1" last-seen="1583822201"/>
+    <application id="software-properties-gtk.desktop" open-window-count="0" score="46" last-seen="1583839756"/>
+    <application id="code_code.desktop" open-window-count="1" score="1615" last-seen="1584000773"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="3967" last-seen="1584000620"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="1" score="1257" last-seen="1583999355"/>
+    <application id="libreoffice-writer.desktop" open-window-count="0" score="11" last-seen="1583832860"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="73" last-seen="1583936270"/>
+    <application id="thunderbird.desktop" open-window-count="0" score="0" last-seen="1583999348"/>
+  </context>
+</application-state>

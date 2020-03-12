@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+
+    <title>eCitizen - Gateway to All Government Services</title>
+
+    <link href="/static/default/css/style.default-145bd13e7a62faa663cebe40221f281c.css?vsn=d" rel="stylesheet">
+    <link href="/static/css/custom-163465e509998beafe00d96dd7de9441.css?vsn=d" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/static/default/js/html5shiv-262bb88879efaaf75c74154fe0308952.js?vsn=d"></script>
+    <script src="/static/default/js/respond.min-48626676a875709c0d5e7bae93cb02c2.js?vsn=d"></script>
+    <![endif]-->
+    <link href="/css/app-1c9cdf8a84697c9ff9024131530411d7.css?vsn=d" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+
+<section>
+
+  <div class="leftpanel">
+
+      <div class="logopanel">
+          <h1>
+              <a href="/"><img src="/static/default/images/logo-2f8eaba2398e75d1293902c351a16f71.png?vsn=d" alt=""></a>
+          </h1>
+      </div><!-- logopanel -->
+
+      <div class="leftpanelinner">
+
+          <!-- This is only visible to small devices -->
+          <div class="visible-xs hidden-sm hidden-md hidden-lg">
+              <div class="media userlogged">
+                  <div class="media-body">
+                      <h4>EDWARD OINO NYANGWARA</h4>
+                      <span></span>
+                  </div>
+              </div>
+
+              <h5 class="sidebartitle actitle">Account</h5>
+              <ul class="nav nav-pills nav-stacked nav-bracket mb30">
+                  <li><a href="#"><i class="fa fa-user"></i> <span>Profile</span></a></li>
+                  <li><a href="/logout"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
+              </ul>
+          </div>
+
+          <h5 class="sidebartitle">Navigation</h5>
+          <ul class="nav nav-pills nav-stacked nav-bracket">
+              <li><a href="/"><i class="fa fa-desktop"></i> <span>Dashboard</span></a></li>
+          </ul>
+
+      </div><!-- leftpanelinner -->
+  </div><!-- leftpanel -->
+
+  <div class="mainpanel">
+
+    <div class="headerbar">
+
+        <a class="menutoggle"><i class="fa fa-bars"></i></a>
+
+        <div class="header-right">
+            <ul class="headermenu">
+                <li>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+EDWARD OINO NYANGWARA                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                            <li><a href="/profile"><i class="glyphicon glyphicon-user"></i> My Account</a></li>
+                            <li><a href="https://accounts.ecitizen.go.ke/logout"><i class="glyphicon glyphicon-log-out"></i> Log Out</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- header-right -->
+
+    </div><!-- headerbar -->
+
+<div class="pageheader">
+    <h2>
+        <i class="fa fa-home"></i> Dashboard
+    </h2>
+    <div class="breadcrumb-wrapper">
+        <span class="label">You are here:</span>
+        <ol class="breadcrumb">
+            <li>Dashboard</li>
+        </ol>
+    </div>
+</div>
+
+<div class="contentpanel container-fluid">
+
+    <div class="panel panel-default panel-bordered">
+        <div class="panel-heading" style="background:#ecebec;!important;padding-left:0;padding-right:0;">
+            <h3 class="panel-title">National Services</h3>
+            <p>Click on any of the agencies listed below to access the respective services.</p>
+        </div>
+        <div class="panel-body" style="background:#ecebec;padding-left:0;padding-right:0;">
+
+            <div id="bloglist" class="row">
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/immigration-6ee0f38b72fb826ffbb02eea27c5deeb.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="https://passport.ecitizen.go.ke/dashboard" class="btn btn-sm btn-default">Get
+                                    Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name">
+                                    <a href="https://passport.ecitizen.go.ke/dashboard">
+                                        Department of Immigration Services - ePassport
+                                    </a>
+                                </h4>
+                                <div class="text-muted">
+                                    For ePassport applications
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/immigration-6ee0f38b72fb826ffbb02eea27c5deeb.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="https://immigration.ecitizen.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name">
+                                    <a href="https://immigration.ecitizen.go.ke/index.php/dashboard">
+                                        Department of Immigration Services
+                                    </a>
+                                </h4>
+                                <div class="text-muted">
+                                    Includes application for child's passport, temporary permit and application for a
+                                    visa.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/crown-40f8878614bdf299ddc0aee309c3087d.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://brs.ecitizen.go.ke/auth/sso-login" class="btn btn-sm btn-default">Get
+                                    Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+                            <a href="http://brs.ecitizen.go.ke/auth/sso-login" class="pull-left">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="http://brs.ecitizen.go.ke/auth/sso-login">Business
+                                        Registration Service</a></h4>
+                                <div class="text-muted">Register and manage your business.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/dci-41c8c35534f86fe42b7f954b88dff8e1.jpg?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="https://dci.ecitizen.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a
+                                        href="https://dci.ecitizen.go.ke/index.php/dashboard">Directorate of Criminal
+                                        Investigations</a></h4>
+                                <div class="text-muted">Apply and pay for your Police Clearance Certificate.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="bloglist" class="row">
+
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/ntsa-6c8f6e12aa29f9ee2398034b042b6e87.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://ntsa.ecitizen.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name">
+                                    <a href="http://ntsa.ecitizen.go.ke/index.php/dashboard">National Transport and
+                                        Safety Authority</a></h4>
+                                <div class="text-muted">Includes applying for a provisional driving licence, book a
+                                    driving test, getting a driving license, pay fees and tracking your application
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/crown-40f8878614bdf299ddc0aee309c3087d.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="https://crs.ecitizen.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="https://crs.ecitizen.go.ke/index.php/dashboard">Civil
+                                        Registration Department</a></h4>
+                                <div class="text-muted">Apply and pay for Birth and Death Certificates online.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/crown-40f8878614bdf299ddc0aee309c3087d.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://lims.ardhi.go.ke:8086/lims/" class="btn btn-sm btn-default">Get
+                                    Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="http://lims.ardhi.go.ke:8086/lims/">Ministry of Lands
+                                        and Physical Planning</a></h4>
+                                <div class="text-muted">Includes searching for a Title deed, land rent clearance demand
+                                    notice and payments.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Helb" class="thumbnail media-object"
+                                    src="/static/images/helb-c8cbf3b58f3347d01fa5dda9434a7898.jpg?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="https://helb.ecitizen.go.ke/dashboard" class="btn btn-sm btn-default">Get
+                                    Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="https://helb.ecitizen.go.ke/dashboard">Higher Education
+                                        Loans
+                                        Board (HELB)</a></h4>
+                                <div class="text-muted">You can now repay your helb loan and obtain compliance
+                                    certificates and
+                                    clearance certificates upon completion of loan repayment.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/kra-bbfc19ac34111345b149c8635ddbb30d.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://kra.ecitizen.go.ke/" class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="http://kra.ecitizen.go.ke/">The Kenya Revenue Authority
+                                        (KRA)</a></h4>
+                                <div class="text-muted">Includes domestic taxes, customs duty, domestic excise and other
+                                    KRA payments.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/nca-379c2c2e42d7015e231b3fa1fd17513a.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="https://portal.nca.go.ke:81/" class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="https://portal.nca.go.ke:81/
+">National Construction Authority</a></h4>
+                                <div class="text-muted">Apply for permits and Licenses offered by National Construction
+                                    Authority.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/nema-2105d5ee3eb471bf6191656383da75eb.jpg?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://portal.nema.go.ke/ " class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="http://portal.nema.go.ke/ ">National Environment
+                                        Management Authority
+                                        (NEMA)</a></h4>
+                                <div class="text-muted">Apply for Permits and Licenses issued by National Environment
+                                    Management Authority.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default panel-bordered">
+        <div class="panel-heading" style="background:#ecebec;!important;padding-left:0;padding-right:0;">
+            <h3 class="panel-title">County Services</h3>
+            <p>Click on any of the Counties listed below to access the respective services.</p>
+        </div>
+        <div class="panel-body" style="background:#ecebec;padding-left:0;padding-right:0;">
+            <div id="bloglist" class="row">
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/mombasa_coat_of_arm-e08185bfb6c0377d1a3c6ac4200d0c1b.png?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://eservices.mombasa.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a
+                                        href="http://eservices.mombasa.go.ke/index.php/dashboard">County
+                                        Government of Mombasa</a></h4>
+                                <div class="text-muted">Apply for County of Mombasa eServices.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/nyeri_coat_of_arm-e43b69e778da7106173bebbd6ffdffa8.jpg?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://eservices.nyeri.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="person-name"><a
+                                        href="http://eservices.nyeri.go.ke/index.php/dashboard">County Government of
+                                        Nyeri</a></h4>
+                                <div class="text-muted">Apply and pay for your Single Business Permit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/kisumu_coat_of_arm-abc888669cace10d7a44284650fb8979.jpg?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://eservices.kisumu.go.ke/index.php/dashboard"
+                                    class="btn btn-sm btn-default">Get Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="person-name"><a
+                                        href="http://eservices.kisumu.go.ke/index.php/dashboard">County Government of
+                                        Kisumu</a></h4>
+                                <div class="text-muted">Apply and pay for your Trade License.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="people-item service-card">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <img alt="Sample" class="thumbnail media-object"
+                                    src="/static/images/kisumu_coat_of_arm-abc888669cace10d7a44284650fb8979.jpg?vsn=d"
+                                    data-holder-rendered="true">
+                            </div>
+                            <div class="pull-right text-left">
+                                <a href="http://cp.kisumu.go.ke/index.php/dashboard" class="btn btn-sm btn-default">Get
+                                    Service</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="person-name"><a href="http://cp.kisumu.go.ke/index.php/dashboard">Kisumu
+                                        e-Construction permit</a></h4>
+                                <div class="text-muted">Apply and pay for the county gorvernment of kisumu
+                                    e-Construction permit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div><!-- tabcontent -->
+</div>
+  </div><!-- mainpanel -->
+
+</section>
+
+<div id="delete-confirmation-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Delete Record</h4>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button id="delete" type="button" class="btn btn-danger">Continue</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<script src="/static/default/js/jquery-1.10.2.min-628072e7212db1e8cdacb22b21752cda.js?vsn=d"></script>
+<script src="/static/default/js/jquery-migrate-1.2.1.min-eb05d8d73b5b13d8d84308a4751ece96.js?vsn=d"></script>
+<script src="/static/default/js/bootstrap.min-ba847811448ef90d98d272aeccef2a95.js?vsn=d"></script>
+<script src="/static/default/js/modernizr.min-cf6d24b271a128c1564697131d29cd07.js?vsn=d"></script>
+<script src="/static/default/js/jquery.sparkline.min-56be28a1645466dc675d2a204fca015c.js?vsn=d"></script>
+<script src="/static/default/js/toggles.min-78931fad90b1bbeb12f275400c94ddfc.js?vsn=d"></script>
+<script src="/static/default/js/jquery.cookies-915875cc7e633fb427c26239c9c2edad.js?vsn=d"></script>
+<script src="/static/default/js/custom-c1a16c9934bac74af8b3d285abb0c105.js?vsn=d"></script>
+
+<script src="https://accounts.ecitizen.go.ke/static/default/js/masonry.pkgd.min-cd61ac8de4684082253ac4d52bf78d7e.js?vsn=d"></script>
+<script>
+  jQuery(window).load(function(){
+  
+    var container = document.querySelector('#bloglist');
+    var msnry = new Masonry( container, {
+      // options
+      columnWidth: '.col-xs-6',
+      itemSelector: '.col-xs-6'
+    });
+    
+    // check on load
+    if(jQuery(window).width() <= 480 )
+        msnry.destroy();
+
+    // check on resize
+    jQuery(window).resize(function(){
+        if(jQuery(this).width() <= 480 )
+            msnry.destroy();
+    });
+
+  });
+  
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10179244-23', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
+tÌà2õ      ^ižï^ižþAqÃ^ižð   !    :https://accounts.ecitizen.go.ke/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+server: Cowboy
+date: Thu, 12 Mar 2020 02:31:11 GMT
+content-length: 29517
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 2ntmrahrbqa6pfjbq8h8d8s2
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+ original-response-headers server: Cowboy
+date: Thu, 12 Mar 2020 02:31:11 GMT
+content-length: 29517
+set-cookie: _single_signon_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYSmF4ZG1TWGFCN0M0M1d2RmkzZmc2dz09bQAAABVhdXRoX2N1cnJlbnRfcmVzb3VyY2V0AAAAF2QACF9fbWV0YV9fdAAAAARkAApfX3N0cnVjdF9fZAAbRWxpeGlyLkVjdG8uU2NoZW1hLk1ldGFkYXRhZAAHY29udGV4dGQAA25pbGQABnNvdXJjZWgCZAADbmlsbQAAAAV1c2Vyc2QABXN0YXRlZAAGbG9hZGVkZAAKX19zdHJ1Y3RfX2QAGEVsaXhpci5TaW5nbGVTaWdub24uVXNlcmQADGFjY291bnRfdHlwZW0AAAAHY2l0aXplbmQABmFjdGl2ZWQABWZhbHNlZAAQYnVzaW5lc3NfcHJvZmlsZXQAAAAEZAAPX19jYXJkaW5hbGl0eV9fZAADb25lZAAJX19maWVsZF9fZAAQYnVzaW5lc3NfcHJvZmlsZWQACV9fb3duZXJfX2QAGEVsaXhpci5TaW5nbGVTaWdub24uVXNlcmQACl9fc3RydWN0X19kACFFbGl4aXIuRWN0by5Bc3NvY2lhdGlvbi5Ob3RMb2FkZWRkAAtjaXRpemVuc2hpcG0AAAACS0VkAApjcmVhdGVkX2F0dAAAAAlkAApfX3N0cnVjdF9fZAAURWxpeGlyLk5haXZlRGF0ZVRpbWVkAAhjYWxlbmRhcmQAE0VsaXhpci5DYWxlbmRhci5JU09kAANkYXlhFWQABGhvdXJhC2QAC21pY3Jvc2Vjb25kaAJiAAYl62EGZAAGbWludXRlYQBkAAVtb250aGEHZAAGc2Vjb25kYR1kAAR5ZWFyYgAAB-NkAApkZWxldGVkX2F0ZAADbmlsZAAFZW1haWxtAAAAGWVkd2FyZG55YW5nd2FyYUBnbWFpbC5jb21kAApmaXJzdF9uYW1lbQAAAAZFRFdBUkRkAAZnZW5kZXJtAAAAAU1kAAJpZGIAfH02ZAAJaWRfbnVtYmVybQAAAAgzMDA0NjU5OWQACGlzX2FkbWluZAAFZmFsc2VkAAlsYXN0X25hbWVtAAAABE9JTk9kAA1tb2JpbGVfbnVtYmVybQAAAA0rMjU0NzE3MTA5OTg0ZAAPbW9iaWxlX3ZlcmlmaWVkZAAEdHJ1ZWQACHBhc3N3b3JkbQAAADwkMmIkMTAkdldXTEgxdDY4U1cyVTJOVWt0OGpLdUtmMDRCa2RXNFBoN201TlFWT3RKd0RhTkl1NHhwNm1kAAdzdXJuYW1lbQAAAAlOWUFOR1dBUkFkAA50ZXJtc19hY2NlcHRlZGQABWZhbHNlZAAKdXBkYXRlZF9hdHQAAAAJZAAKX19zdHJ1Y3RfX2QAFEVsaXhpci5OYWl2ZURhdGVUaW1lZAAIY2FsZW5kYXJkABNFbGl4aXIuQ2FsZW5kYXIuSVNPZAADZGF5YQxkAARob3VyYQJkAAttaWNyb3NlY29uZGgCYgAB1nZhBmQABm1pbnV0ZWEDZAAFbW9udGhhA2QABnNlY29uZGERZAAEeWVhcmIAAAfkZAAMdXNlcl9wcm9maWxldAAAAARkAA9fX2NhcmRpbmFsaXR5X19kAANvbmVkAAlfX2ZpZWxkX19kAAx1c2VyX3Byb2ZpbGVkAAlfX293bmVyX19kABhFbGl4aXIuU2luZ2xlU2lnbm9uLlVzZXJkAApfX3N0cnVjdF9fZAAhRWxpeGlyLkVjdG8uQXNzb2NpYXRpb24uTm90TG9hZGVkZAAIdmVyaWZpZWRkAAR0cnVlbQAAAA9hdXRoX2V4cGlyZXNfYXR0AAAADWQACl9fc3RydWN0X19kAA9FbGl4aXIuRGF0ZVRpbWVkAAhjYWxlbmRhcmQAE0VsaXhpci5DYWxlbmRhci5JU09kAANkYXlhDGQABGhvdXJhBmQAC21pY3Jvc2Vjb25kaAJiAA0ewmEGZAAGbWludXRlYQFkAAVtb250aGEDZAAGc2Vjb25kYQtkAApzdGRfb2Zmc2V0YQBkAAl0aW1lX3pvbmVtAAAADkFmcmljYS9OYWlyb2JpZAAKdXRjX29mZnNldGIAACowZAAEeWVhcmIAAAfkZAAJem9uZV9hYmJybQAAAANFQVQ.hlEqnuVCzmJAQCkuBuJLYm5l1pGPKO7alQGIUErvqB8; path=/; HttpOnly
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 2ntmrahrbqa6pfjbq8h8d8s2
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+ ctid 1 eTLD1Access 1;0;4091094292, uncompressed-len 0 predictor::resource-count 37 predictor::https://accounts.ecitizen.go.ke/static/default/css/style.default-145bd13e7a62faa663cebe40221f281c.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/css/custom-163465e509998beafe00d96dd7de9441.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/css/app-1c9cdf8a84697c9ff9024131530411d7.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/images/logo-2f8eaba2398e75d1293902c351a16f71.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/bootstrap.min-74422ff1d019a430f0e4ff13e207d518.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/bootstrap-override-e175a06102daca589d8eb68edef242ab.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/jquery-ui-1.10.3-f63d6d98e7f6dd9fb8c62ac3cf3a236d.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/font-awesome.min-fa6868c22ceca7f65191ec25c68a9bb5.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/animate.min-54ae86c77a244cc7e87910ffb60bc577.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/animate.delay-3cf39f709f56762d71212176a7786e9a.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/toggles-6222b4efad23c2324bdb102f8f925f3c.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/chosen-b046ceaa4534f0af5837048753f620df.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/css/lato-e8ff16fa8b704885e325dbb1ff4401b6.css?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/fonts/fontawesome-webfont.woff?v=4.0.3 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/fonts/lato/Lato-Reg-webfont-c71774e85ec529a804e7d097654b6d71.woff?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/immigration-6ee0f38b72fb826ffbb02eea27c5deeb.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/crown-40f8878614bdf299ddc0aee309c3087d.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/dci-41c8c35534f86fe42b7f954b88dff8e1.jpg?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/ntsa-6c8f6e12aa29f9ee2398034b042b6e87.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/helb-c8cbf3b58f3347d01fa5dda9434a7898.jpg?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/kra-bbfc19ac34111345b149c8635ddbb30d.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/nca-379c2c2e42d7015e231b3fa1fd17513a.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/nema-2105d5ee3eb471bf6191656383da75eb.jpg?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/mombasa_coat_of_arm-e08185bfb6c0377d1a3c6ac4200d0c1b.png?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/images/nyeri_coat_of_arm-e43b69e778da7106173bebbd6ffdffa8.jpg?vsn=d 1,1,1583980271,4096 net-response-time-onstart 217 net-response-time-onstop 7411 predictor::https://accounts.ecitizen.go.ke/static/images/kisumu_coat_of_arm-abc888669cace10d7a44284650fb8979.jpg?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/jquery-1.10.2.min-628072e7212db1e8cdacb22b21752cda.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/jquery-migrate-1.2.1.min-eb05d8d73b5b13d8d84308a4751ece96.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/bootstrap.min-ba847811448ef90d98d272aeccef2a95.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/modernizr.min-cf6d24b271a128c1564697131d29cd07.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/jquery.sparkline.min-56be28a1645466dc675d2a204fca015c.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/toggles.min-78931fad90b1bbeb12f275400c94ddfc.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/jquery.cookies-915875cc7e633fb427c26239c9c2edad.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/custom-c1a16c9934bac74af8b3d285abb0c105.js?vsn=d 1,1,1583980271,4096 predictor::https://accounts.ecitizen.go.ke/static/default/js/masonry.pkgd.min-cd61ac8de4684082253ac4d52bf78d7e.js?vsn=d 1,1,1583980271,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1583980271,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j81&a=874786809&t=pageview&_s=1&dl=https%3A%2F%2Faccounts.ecitizen.go.ke%2F&ul=en-us&de=UTF-8&dt=eCitizen%20-%20Gateway%20to%20All%20Government%20Services&sd=24-bit&sr=1920x1080&vp=1853x951&je=0&_u=AACAAEAB~&jid=&gjid=&cid=2032580106.1583978501&tid=UA-10179244-23&_gid=448731372.1583978501&z=755098074 1,1,1583980271,4096   sM
